@@ -1,0 +1,6 @@
+export * from './HeroSection.jsx';
+export * from './AboutSection.jsx';
+export * from './ProjectsSection.jsx';
+export * from './ContactSection.jsx';
+export * from './Navbar.jsx';
+export * from './Footer.jsx';
