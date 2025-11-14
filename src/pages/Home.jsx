@@ -8,8 +8,8 @@ export const Home = () => {
       <Navbar />
       <main>
         <HeroSection/>
-        <AboutSection/>
-        <ContactSection/>
+        {/* <AboutSection/>
+        <ContactSection/> */}
       </main>
 
       <Footer />
