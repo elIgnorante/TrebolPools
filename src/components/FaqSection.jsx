@@ -37,7 +37,14 @@ export const FaqSection = () => {
   };
 
   return (
-    <div className="h-screen p-40 text-gray-900">
+    <div className="relative bg-linear-to-br from-[#f6f9ff] via-[#f6f9ff] to-[#eef3ff] py-16 sm:py-20 ">
+      {/* blobs de fondo */}
+      <div className="pointer-events-none absolute inset-0 overflow-hidden">
+        <div className="absolute -left-12 top-10 h-48 w-48 rounded-full bg-blue-200/40 blur-3xl sm:h-64 sm:w-64" />
+      </div>
+
+      <div className="h-screen p-40 text-gray-900 ">
+      
       <div className="space-y-12 ">
         <h1 className="text-5xl font-bold">Frequently Asked Questions</h1>
         <div>
@@ -54,5 +61,7 @@ export const FaqSection = () => {
         </div>
       </div>
     </div>
+    </div>
+    
   )
 }
