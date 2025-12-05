@@ -1,5 +1,5 @@
 
-import { Navbar, HeroSection, AboutSection, ContactSection, Footer, FaqSection, ServicesSecion } from "../components"
+import { Navbar, HeroSection, AboutSection, ContactSection, Footer, FaqSection, ServicesSecion, ProjectsSection } from "../components"
 
 export const Home = () => {
   return (
@@ -9,8 +9,9 @@ export const Home = () => {
       <main>
         <HeroSection/>
         <ServicesSecion/>
-        {/* <AboutSection/>
-        <ContactSection/> */}
+        <ProjectsSection/>
+        {/* <AboutSection/> */}
+        <ContactSection/>
         <FaqSection/>
       </main>
 
